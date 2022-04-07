@@ -44,8 +44,15 @@ a {
 }
 
 .hero-content,
-.hero-image {
+.image-parts{
   flex:1;
+}
+
+.image-parts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: grey;
 }
 
 .main-title {
