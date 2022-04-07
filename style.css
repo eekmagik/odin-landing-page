@@ -42,7 +42,6 @@ a {
   display: flex;
   padding-top: 130px;
   justify-content: space-between;
-  height: 200px;
 }
 
 .hero-content,
@@ -51,22 +50,34 @@ a {
 }
 
 .hero-content{
-  margin-right: 40px;
+  margin-right: 30px;
 }
 .image-parts {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: grey;
-  margin-left: 40px;
+  background: rgba(128, 128, 128, 0.781);
+  margin-left: 30px;
 }
 
 .main-title {
   font-size: 48px;
-  font-weight:900;
+  font-weight:800;
 }
 
 .main-subtext {
   font-size: 18px;
   color:#E5E7EB;
+  padding: 8px 0 15px;
 }
+
+button {
+  color:#F9FAF8;
+  background-color: #3882F6;
+  border: 0;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 30px;
+}
+
