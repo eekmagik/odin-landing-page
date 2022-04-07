@@ -1,12 +1,12 @@
 body {
-  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto';
   margin: 0;
 }
 
 .header {
   background-color: #1F2937;
   color: #F9FAF8;
-  padding: 5px 100px 75px;
+  padding: 5px 200px 150px;
   display: flex;
   flex-direction: column;
  
@@ -20,6 +20,7 @@ body {
 
 .header-logo {
   font-size: 24px;
+  font-weight: 700;
 }
 
 
@@ -39,8 +40,9 @@ a {
 
 .hero {
   display: flex;
-  padding-top: 75px;
+  padding-top: 130px;
   justify-content: space-between;
+  height: 200px;
 }
 
 .hero-content,
@@ -48,14 +50,23 @@ a {
   flex:1;
 }
 
+.hero-content{
+  margin-right: 40px;
+}
 .image-parts {
   display: flex;
   justify-content: center;
   align-items: center;
   background: grey;
+  margin-left: 40px;
 }
 
 .main-title {
   font-size: 48px;
-  font-weight: bold;
+  font-weight:900;
+}
+
+.main-subtext {
+  font-size: 18px;
+  color:#E5E7EB;
 }
