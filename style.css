@@ -24,6 +24,16 @@ body {
 
 ul {
   margin-left: auto;
+  list-style-type: none;
+}
+
+.two,
+.three{
+  margin-left: 12px;
+}
+a {
+  text-decoration: none;
+  color: #E5E7EB;
 }
 
 .hero {
