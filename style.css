@@ -86,6 +86,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 120px;
 }
 
 .info-header {
@@ -121,4 +122,31 @@ button {
   font-size: 18px;
   font-weight: 100;
   color:rgb(80, 79, 79);
+}
+
+.quote-container {
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  width: 820px;
+  padding: 120px
+}
+
+.quote-main {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  align-self: center;
+  
+}
+
+.quote-attribution {
+  font-size: 18px;
+  font-weight: 700;
+  align-self: flex-end;
 }
