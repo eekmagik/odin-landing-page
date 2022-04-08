@@ -81,7 +81,11 @@ button {
   padding: 10px 30px;
 }
 
-
+.content {
+  display: flex;
+  flex-direction: column;
+  flex :1;
+}
 .info {
   display: flex;
   flex-direction: column;
@@ -181,4 +185,13 @@ button {
 .bottom-button {
   border: 2px solid white;
   margin-left: auto;
+}
+
+.footer {
+  background-color:#1F2937;
+  color: white;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
